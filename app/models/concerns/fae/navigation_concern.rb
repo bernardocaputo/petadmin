@@ -30,13 +30,8 @@ module Fae
         item('Discounts', path: admin_discounts_path),
         item('Campaigns', path: admin_campaigns_path),
         item('Suppliers', path: admin_suppliers_path),
-<<<<<<< HEAD
         item('Products', path: admin_products_path),
-        item('Sells', path: admin_sells_path),
-=======
-        item('Sells', path: admin_sells_path),
-        item('Products', path: admin_products_path),
->>>>>>> fae scaffold
+        item('Sells', path: admin_sells_path)
         # scaffold inject marker
       ]
     end
